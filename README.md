@@ -1,8 +1,8 @@
-## enable screen sharing on jetson
+### enable screen sharing on jetson
 ```
 gsettings set org.gnome.Vino require-encryption false
 ```
-## jetson-stats is a package for monitoring and control
+### jetson-stats is a package for monitoring and control
 ```
 sudo pip3 install -U jetson-stats
 ```
@@ -52,15 +52,45 @@ sudo -H pip3 install scikit-build
 ### download PyTorch 1.13.0 with all its libraries
 ```
 git clone -b v1.13.0 --depth=1 --recursive https://github.com/pytorch/pytorch.git
-$ cd pytorch
+cd pytorch
 ```
 ### one command to install several dependencies in one go
-### installs future, numpy, pyyaml, requests
-### setuptools, six, typing_extensions, dataclasses
+installs future, numpy, pyyaml, requests
+setuptools, six, typing_extensions, dataclasses
 ```
-$ sudo pip3 install -r requirements.txt
+sudo pip3 install -r requirements.txt
 ```
 
 # Enlarge memory swap.
+<br><br>
+Building the full PyTorch requires more than 4 Gbytes of RAM and the 2 Gbytes of swap space delivered by zram usually found on your Jetson Nano. We have to install dphys-swapfile to get the additional space from your SD card temporarily. After the compilation, the mechanism will be removed, eliminating swapping to the SD card.
+<br><br>
+You need to increase the dphys swap beyond the regular 2048 limit. It is done by first changing the maximum boundary in /sbin/dphys-swapfile to 4096. Next, set the /etc/dphys-swapfile. The slideshow will guide you. If there is not enough swap memory, the compilation will generate obcure CalledProcessErrors.
+<br><br>
+We do not recommend increasing the zram swap limits. You can't just keep compressing system memory in the hopes of getting some extra space. There are limits. It is better that you temporarily use the SD memory. Once PyTorch is installed, you can remove dphys-swapfile again.
+Please follow the next commands. Note also the installation of nano, a tiny text editor.
+<br><br>
+If you don't want to swap to SD memory, you can reduce the number of working cores with the $ export MAX_JOBS variable. If you use two instead of four cores, the compilation will succeed without dphys-swapfile, but it will take much longer to complete. It is up to you.
+<br><br>
 
-
+# a fresh start, so check for updates
+```
+sudo apt-get update
+sudo apt-get upgrade
+```
+# install nano
+```
+sudo apt-get install nano
+```
+# install dphys-swapfile
+```
+sudo apt-get install dphys-swapfile
+```
+# enlarge the boundary
+```
+$ sudo nano /sbin/dphys-swapfile
+```
+# give the required memory size
+$ sudo nano /etc/dphys-swapfile
+# reboot afterwards
+$ sudo reboot.
