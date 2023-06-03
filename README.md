@@ -1,6 +1,7 @@
 # nVidia Jatson Nano Setup
-Installing process based on: https://www.cs.rochester.edu/u/kautz/Installing-Pytorch-Cuda-on-Macbook.html
-<br>Thanks to Henry Kautz!<br>
+Installing process based on: 
+https://qengineering.eu/install-pytorch-on-jetson-nano.html
+
 
 
 >Enable Screen Sharing
@@ -13,3 +14,5 @@ Install Pyton, Pytorch ect.
 
 pip install scikit-learn 
 ```
+
+
