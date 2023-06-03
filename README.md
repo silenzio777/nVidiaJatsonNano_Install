@@ -7,7 +7,10 @@ gsettings set org.gnome.Vino require-encryption false
 sudo pip3 install -U jetson-stats
 ```
 
-## install Sublime Text:
+## ## install Sublime Text:
+## apt
+The apt repository contains packages for both x86-64 and arm64.
+
 ### Install the GPG key:
 ```
 wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/sublimehq-archive.gpg > /dev/null
@@ -20,9 +23,12 @@ echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sou
 
 
 ```
+sudo apt-get update
 sudo apt-get install sublime-text
 ```
 
+<br><br><br><br>
+___________________________________________________________
 # Install PyTorch on Jetson Nano.
 Installing process based on: 
 https://qengineering.eu/install-pytorch-on-jetson-nano.html
