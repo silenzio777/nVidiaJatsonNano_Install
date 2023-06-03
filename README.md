@@ -21,12 +21,14 @@ echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sou
 ```
 ### Update apt sources and install Sublime Text:
 
-
 ```
 sudo apt-get update
 sudo apt-get install sublime-text
 ```
-
+### If this fails ensure apt is set up to work with https sources:
+```
+sudo apt-get install apt-transport-https
+```
 <br><br><br><br>
 ___________________________________________________________
 # Install PyTorch on Jetson Nano.
