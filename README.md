@@ -62,7 +62,7 @@ sudo pip3 install -r requirements.txt
 ```
 
 # Enlarge memory swap.
-<br><br>
+<br>
 Building the full PyTorch requires more than 4 Gbytes of RAM and the 2 Gbytes of swap space delivered by zram usually found on your Jetson Nano. We have to install dphys-swapfile to get the additional space from your SD card temporarily. After the compilation, the mechanism will be removed, eliminating swapping to the SD card.
 <br><br>
 You need to increase the dphys swap beyond the regular 2048 limit. It is done by first changing the maximum boundary in /sbin/dphys-swapfile to 4096. Next, set the /etc/dphys-swapfile. The slideshow will guide you. If there is not enough swap memory, the compilation will generate obcure CalledProcessErrors.
@@ -91,6 +91,11 @@ sudo apt-get install dphys-swapfile
 $ sudo nano /sbin/dphys-swapfile
 ```
 # give the required memory size
-$ sudo nano /etc/dphys-swapfile
+```
+sudo nano /etc/dphys-swapfile
+```
 # reboot afterwards
-$ sudo reboot.
+```
+sudo reboot
+```
+
