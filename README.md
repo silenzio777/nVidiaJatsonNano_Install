@@ -91,6 +91,7 @@ sudo apt-get install dphys-swapfile
 sudo nano /sbin/dphys-swapfile
 ```
 ![SwapMaxJetsonPy1](https://github.com/silenzio777/nVidiaJatsonNano_Install/assets/7931919/1c16fd46-367c-4e81-b86b-884009f3e8f2)
+
 in line "CONF_SWAPSIZE="
 change add 4096
 
@@ -99,6 +100,7 @@ change add 4096
 sudo nano /etc/dphys-swapfile
 ```
 ![SwapMaxJetsonPy2](https://github.com/silenzio777/nVidiaJatsonNano_Install/assets/7931919/ff9aaba6-d87b-4e87-9445-a103807ac233)
+
 in line "CONF_MAXSWAP=2048"
 change 2048 to 4096
 
@@ -109,6 +111,7 @@ free -m
 
 <br>
 # reboot afterwards
+
 ```
 sudo reboot
 ```
