@@ -109,7 +109,7 @@ free -m
 ```
 ![SwapMaxJetsonPy3](https://github.com/silenzio777/nVidiaJatsonNano_Install/assets/7931919/dd4f279c-e100-4a8d-ad31-ddf31baead1b)
 
-<br>
+
 # reboot afterwards
 
 ```
