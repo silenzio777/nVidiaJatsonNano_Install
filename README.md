@@ -88,8 +88,15 @@ sudo apt-get install dphys-swapfile
 ```
 # enlarge the boundary
 ```
-$ sudo nano /sbin/dphys-swapfile
+sudo nano /sbin/dphys-swapfile
 ```
+in line "CONF_SWAPSIZE=2048"
+change 2048 to 4096
+
+in line "CONF_MAXSWAP=2048"
+change 2048 to 4096
+
+
 # give the required memory size
 ```
 sudo nano /etc/dphys-swapfile
