@@ -1,3 +1,13 @@
+## enable screen sharing on jetson
+```
+gsettings set org.gnome.Vino require-encryption false
+```
+## jetson-stats is a package for monitoring and control
+```
+sudo pip3 install -U jetson-stats
+```
+
+
 # Install PyTorch on Jetson Nano.
 Installing process based on: 
 https://qengineering.eu/install-pytorch-on-jetson-nano.html
@@ -15,14 +25,6 @@ It looks like Nvidia has no plans to release the new JetPack 5.0 for the Jetson 
 However, you can use the current version of Jetson Nano with Ubuntu 20.04. We supply the wheels for this version at GitHub.
 <br><br>
 
-## enable screen sharing on jetson
-```
-gsettings set org.gnome.Vino require-encryption false
-```
-## jetson-stats is a package for monitoring and control
-```
-sudo pip3 install -U jetson-stats
-```
 # Installation from scratch.
 
 ## Install PyTorch for Python 3.
