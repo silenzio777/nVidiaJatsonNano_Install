@@ -73,20 +73,20 @@ Please follow the next commands. Note also the installation of nano, a tiny text
 If you don't want to swap to SD memory, you can reduce the number of working cores with the $ export MAX_JOBS variable. If you use two instead of four cores, the compilation will succeed without dphys-swapfile, but it will take much longer to complete. It is up to you.
 <br><br>
 
-# a fresh start, so check for updates
+### a fresh start, so check for updates
 ```
 sudo apt-get update
 sudo apt-get upgrade
 ```
-# install nano
+### install nano
 ```
 sudo apt-get install nano
 ```
-# install dphys-swapfile
+### install dphys-swapfile
 ```
 sudo apt-get install dphys-swapfile
 ```
-# enlarge the boundary
+### enlarge the boundary
 ```
 sudo nano /sbin/dphys-swapfile
 ```
@@ -95,7 +95,7 @@ sudo nano /sbin/dphys-swapfile
 in line "CONF_SWAPSIZE="
 change add 4096
 
-# give the required memory size
+### give the required memory size
 ```
 sudo nano /etc/dphys-swapfile
 ```
@@ -110,7 +110,7 @@ free -m
 ![SwapMaxJetsonPy3](https://github.com/silenzio777/nVidiaJatsonNano_Install/assets/7931919/dd4f279c-e100-4a8d-ad31-ddf31baead1b)
 
 
-# reboot afterwards
+### reboot afterwards
 
 ```
 sudo reboot
