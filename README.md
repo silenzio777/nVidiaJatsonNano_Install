@@ -7,7 +7,10 @@ gsettings set org.gnome.Vino require-encryption false
 sudo pip3 install -U jetson-stats
 ```
 
-https://computingforgeeks.com/how-to-install-and-use-syncthing-on-ubuntu/
+https://apt.syncthing.net/ -- WORK!
+
+
+https://linuxize.com/post/how-to-install-sublime-text-3-on-ubuntu-20-04/  -- WORK!
 
 ## ## install Sublime Text:
 ## apt
