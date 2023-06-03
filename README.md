@@ -14,11 +14,15 @@ It looks like Nvidia has no plans to release the new JetPack 5.0 for the Jetson 
 <br><br>
 However, you can use the current version of Jetson Nano with Ubuntu 20.04. We supply the wheels for this version at GitHub.
 <br><br>
-## Enable Screen Sharing
+
+## enable screen sharing on jetson
 ```
 gsettings set org.gnome.Vino require-encryption false
 ```
-
+## jetson-stats is a package for monitoring and control
+```
+sudo pip3 install -U jetson-stats
+```
 # Installation from scratch.
 
 ## Install PyTorch for Python 3.
