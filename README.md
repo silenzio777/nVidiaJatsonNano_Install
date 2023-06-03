@@ -7,6 +7,8 @@ gsettings set org.gnome.Vino require-encryption false
 sudo pip3 install -U jetson-stats
 ```
 
+https://computingforgeeks.com/how-to-install-and-use-syncthing-on-ubuntu/
+
 ## ## install Sublime Text:
 ## apt
 The apt repository contains packages for both x86-64 and arm64.
