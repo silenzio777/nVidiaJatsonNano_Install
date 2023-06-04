@@ -65,7 +65,7 @@ __________
 
 
 ## Installing Sublime Text 3 on Ubuntu 20.04:
-https://linuxize.com/post/how-to-install-sublime-text-3-on-ubuntu-20-04/  -- WORK!
+https://linuxize.com/post/how-to-install-sublime-text-3-on-ubuntu-20-04/  - WORK!
 ```
 sudo apt update
 sudo apt install dirmngr gnupg apt-transport-https ca-certificates software-properties-common
@@ -81,7 +81,7 @@ sudo apt install sublime-text
 __________
 <br>
 
-# Install PyTorch on Jetson Nano.
+# Install PyTorch on Jetson Nano. - WORK!
 
 Installing process based on: 
 https://qengineering.eu/install-pytorch-on-jetson-nano.html
@@ -125,7 +125,9 @@ $ rm torch-1.13.0a0+git7c98e70-cp38-cp38-linux_aarch64.whl
 
 this work!
 
-===============
+__________
+<br>
+
 # Installation from scratch.
 
 ## Install PyTorch for Python 3.
