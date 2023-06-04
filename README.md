@@ -45,9 +45,8 @@ cd <syncthing-macos-universal-v1.23.4>
 ```
 
 ### Browser goto:
-```
 http://127.0.0.1:8384/
-```
+
 
 ### 
 
