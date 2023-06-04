@@ -25,6 +25,14 @@ gsettings set org.gnome.Vino require-encryption false
 sudo pip3 install -U jetson-stats
 ```
 
+Mac install 
+```
+https://syncthing.net/downloads/
+```
+```
+http://127.0.0.1:8384/
+```
+
 https://apt.syncthing.net/ -- WORK!
 
 
