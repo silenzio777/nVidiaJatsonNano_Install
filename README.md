@@ -15,16 +15,17 @@ EndSection
 Which will allow X11 to startup without a monitor attached.
 
 
-
-### enable screen sharing on jetson
+__________
+## Enable screen sharing on jetson
 ```
 gsettings set org.gnome.Vino require-encryption false
 ```
+__________
 ### jetson-stats is a package for monitoring and control
 ```
 sudo pip3 install -U jetson-stats
 ```
-
+<br><br>
 __________
 ## Syncthing
 ### Mac install server:
@@ -42,7 +43,7 @@ http://127.0.0.1:8384/
 ```
 ### 
 https://apt.syncthing.net/ -- WORK!
-
+<br><br>
 __________
 
 ## CV2 Python
@@ -51,11 +52,11 @@ __________
 pip install opencv-contrib-python
 ```
 __________
-
+<br><br>
 https://linuxize.com/post/how-to-install-sublime-text-3-on-ubuntu-20-04/  -- WORK!
 
-## ## install Sublime Text:
-## apt
+## install Sublime Text:
+### apt
 The apt repository contains packages for both x86-64 and arm64.
 
 ### Install the GPG key:
