@@ -128,7 +128,7 @@ this work!
 __________
 <br>
 
-# Installation from scratch.
+# Installation from scratch.  - !NOT WORK!
 
 ## Install PyTorch for Python 3.
 
