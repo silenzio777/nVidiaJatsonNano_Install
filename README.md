@@ -25,23 +25,32 @@ gsettings set org.gnome.Vino require-encryption false
 sudo pip3 install -U jetson-stats
 ```
 
-Mac install server:
+__________
+## Syncthing
+### Mac install server:
 ```
 https://syncthing.net/downloads/
 ```
-Run server in terminal:
+### Run server in terminal:
 ```
 cd <syncthing-macos-universal-v1.23.4>
 ./syncthing
 ```
-
-Browser goto:
+### Browser goto:
 ```
 http://127.0.0.1:8384/
 ```
-
+### 
 https://apt.syncthing.net/ -- WORK!
 
+__________
+
+## CV2 Python
+### Option 2 - Full package (contains both main modules and contrib/extra modules): 
+```
+pip install opencv-contrib-python
+```
+__________
 
 https://linuxize.com/post/how-to-install-sublime-text-3-on-ubuntu-20-04/  -- WORK!
 
