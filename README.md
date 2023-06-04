@@ -34,9 +34,7 @@ __________
 ## Syncthing
 https://apt.syncthing.net/ -- WORK!
 ### Mac install server:
-```
 https://syncthing.net/downloads/
-```
 
 ### Run server in terminal:
 ```
