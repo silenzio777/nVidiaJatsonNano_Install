@@ -29,22 +29,27 @@ sudo pip3 install -U jetson-stats
 ```
 __________
 <br>
+
 ## Syncthing
+https://apt.syncthing.net/ -- WORK!
 ### Mac install server:
 ```
 https://syncthing.net/downloads/
 ```
+
 ### Run server in terminal:
 ```
 cd <syncthing-macos-universal-v1.23.4>
 ./syncthing
 ```
+
 ### Browser goto:
 ```
 http://127.0.0.1:8384/
 ```
+
 ### 
-https://apt.syncthing.net/ -- WORK!
+
 
 
 __________
