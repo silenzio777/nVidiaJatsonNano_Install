@@ -106,21 +106,21 @@ However, you can use the current version of Jetson Nano with Ubuntu 20.04. We su
 
 Only for a Jetson Nano with Ubuntu 20.04
 
-# install the dependencies (if not already onboard)
+### install the dependencies (if not already onboard)
 $ sudo apt-get install python3-pip libjpeg-dev libopenblas-dev libopenmpi-dev libomp-dev
 $ sudo -H pip3 install future
 $ sudo pip3 install -U --user wheel mock pillow
 $ sudo -H pip3 install testresources
-# above 58.3.0 you get version issues
+### above 58.3.0 you get version issues
 $ sudo -H pip3 install setuptools==58.3.0
 $ sudo -H pip3 install Cython
-# install gdown to download from Google drive
+### install gdown to download from Google drive
 $ sudo -H pip3 install gdown
-# download the wheel
+### download the wheel
 $ gdown https://drive.google.com/uc?id=1e9FDGt2zGS5C5Pms7wzHYRb0HuupngK1
-# install PyTorch 1.13.0
+###  install PyTorch 1.13.0
 $ sudo -H pip3 install torch-1.13.0a0+git7c98e70-cp38-cp38-linux_aarch64.whl
-# clean up
+### clean up
 $ rm torch-1.13.0a0+git7c98e70-cp38-cp38-linux_aarch64.whl
 
 this work!
