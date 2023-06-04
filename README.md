@@ -57,6 +57,7 @@ __________
 
 
 ## CV2 Python
+https://pypi.org/project/opencv-python/ - WORK!
 ### Option 2 - Full package (contains both main modules and contrib/extra modules): 
 ```
 pip install opencv-contrib-python
