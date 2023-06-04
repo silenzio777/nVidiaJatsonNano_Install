@@ -1,3 +1,8 @@
+https://stackoverflow.com/questions/74600691/nvidia-jetson-nano-vnc-connection-without-hdmi-plugged-in-headless
+
+https://forums.developer.nvidia.com/t/jetson-nano-vnc-headless-connections/77399/17
+__
+
 Allow X without HDMI at Boot
 Edit /etc/X11/xorg.conf
 
