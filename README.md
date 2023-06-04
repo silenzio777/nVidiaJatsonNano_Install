@@ -1,3 +1,16 @@
+Allow X without HDMI at Boot
+Edit /etc/X11/xorg.conf
+
+Section "Device"
+...
+...
+Option "AllowEmptyInitialConfiguration" "true"
+EndSection
+
+Which will allow X11 to startup without a monitor attached.
+
+
+
 ### enable screen sharing on jetson
 ```
 gsettings set org.gnome.Vino require-encryption false
