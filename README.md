@@ -14,19 +14,21 @@ EndSection
 
 Which will allow X11 to startup without a monitor attached.
 
-
 __________
+<br>
 ## Enable screen sharing on jetson
 ```
 gsettings set org.gnome.Vino require-encryption false
 ```
 __________
+<br>
+
 ### jetson-stats is a package for monitoring and control
 ```
 sudo pip3 install -U jetson-stats
 ```
-<br><br>
 __________
+<br>
 ## Syncthing
 ### Mac install server:
 ```
@@ -43,8 +45,8 @@ http://127.0.0.1:8384/
 ```
 ### 
 https://apt.syncthing.net/ -- WORK!
-<br><br>
 __________
+<br>
 
 ## CV2 Python
 ### Option 2 - Full package (contains both main modules and contrib/extra modules): 
@@ -52,33 +54,22 @@ __________
 pip install opencv-contrib-python
 ```
 __________
-<br><br>
+<br>
+
+
+## Installing Sublime Text 3 on Ubuntu 20.04:
 https://linuxize.com/post/how-to-install-sublime-text-3-on-ubuntu-20-04/  -- WORK!
-
-## install Sublime Text:
-### apt
-The apt repository contains packages for both x86-64 and arm64.
-
-### Install the GPG key:
 ```
-wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/sublimehq-archive.gpg > /dev/null
+sudo apt update
+sudo apt install dirmngr gnupg apt-transport-https ca-certificates software-properties-common
 ```
-### Select the channel to use:
-```
-echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
-```
-### Update apt sources and install Sublime Text:
 
 ```
-sudo apt-get update
-sudo apt-get install sublime-text
+curl -fsSL https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
+sudo add-apt-repository "deb https://download.sublimetext.com/ apt/stable/"
 ```
-### If this fails ensure apt is set up to work with https sources:
-```
-sudo apt-get install apt-transport-https
-```
-<br><br><br><br>
-___________________________________________________________
+__________
+<br>
 # Install PyTorch on Jetson Nano.
 Installing process based on: 
 https://qengineering.eu/install-pytorch-on-jetson-nano.html
