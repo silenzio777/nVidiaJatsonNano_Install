@@ -29,6 +29,13 @@ Mac install
 ```
 https://syncthing.net/downloads/
 ```
+Terminal run:
+```
+cd <syncthing-macos-universal-v1.23.4>
+./syncthing
+```
+
+Browser goto:
 ```
 http://127.0.0.1:8384/
 ```
