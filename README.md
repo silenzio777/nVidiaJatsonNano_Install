@@ -164,6 +164,9 @@ setuptools, six, typing_extensions, dataclasses
 sudo pip3 install -r requirements.txt
 ```
 
+__________
+<br>
+
 # Enlarge memory swap.
 <br>
 Building the full PyTorch requires more than 4 Gbytes of RAM and the 2 Gbytes of swap space delivered by zram usually found on your Jetson Nano. We have to install dphys-swapfile to get the additional space from your SD card temporarily. After the compilation, the mechanism will be removed, eliminating swapping to the SD card.
@@ -218,4 +221,6 @@ free -m
 ```
 sudo reboot
 ```
+__________
+<br>
 
