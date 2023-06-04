@@ -1,3 +1,11 @@
+++++++
+
+https://gist.github.com/raulqf/f42c718a658cddc16f9df07ecc627be7
+
+++++++
+
+
+
 https://stackoverflow.com/questions/74600691/nvidia-jetson-nano-vnc-connection-without-hdmi-plugged-in-headless
 
 https://forums.developer.nvidia.com/t/jetson-nano-vnc-headless-connections/77399/17
