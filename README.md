@@ -24,7 +24,7 @@ gsettings set org.gnome.Vino require-encryption false
 __________
 <br>
 
-### jetson-stats is a package for monitoring and control
+## Jetson-stats is a package for monitoring and control
 ```
 sudo pip3 install -U jetson-stats
 ```
