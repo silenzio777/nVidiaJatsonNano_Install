@@ -25,11 +25,11 @@ gsettings set org.gnome.Vino require-encryption false
 sudo pip3 install -U jetson-stats
 ```
 
-Mac install 
+Mac install server:
 ```
 https://syncthing.net/downloads/
 ```
-Terminal run:
+Run server in terminal:
 ```
 cd <syncthing-macos-universal-v1.23.4>
 ./syncthing
