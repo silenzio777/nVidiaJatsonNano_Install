@@ -16,6 +16,7 @@ Which will allow X11 to startup without a monitor attached.
 
 __________
 <br>
+
 ## Enable screen sharing on jetson
 ```
 gsettings set org.gnome.Vino require-encryption false
