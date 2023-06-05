@@ -5,28 +5,11 @@ https://gist.github.com/raulqf/f42c718a658cddc16f9df07ecc627be7
 ++++++
 
 
-
 https://stackoverflow.com/questions/74600691/nvidia-jetson-nano-vnc-connection-without-hdmi-plugged-in-headless
 
 https://forums.developer.nvidia.com/t/jetson-nano-vnc-headless-connections/77399/17
 __
 
-Allow X without HDMI at Boot
-Edit /etc/X11/xorg.conf
-
-Section "Device"
-...
-...
-Option "AllowEmptyInitialConfiguration" "true"
-EndSection
-
-Which will allow X11 to startup without a monitor attached.
-
-## Install GStreamer on Ubuntu or Debian
-* Run the following command:
-```
-apt-get install libgstreamer1.0-dev libgstreamer-plugins-base1.0-dev libgstreamer-plugins-bad1.0-dev gstreamer1.0-plugins-base gstreamer1.0-plugins-good gstreamer1.0-plugins-bad gstreamer1.0-plugins-ugly gstreamer1.0-libav gstreamer1.0-tools gstreamer1.0-x gstreamer1.0-alsa gstreamer1.0-gl gstreamer1.0-gtk3 gstreamer1.0-qt5 gstreamer1.0-pulseaudio
-```
 __________
 <br>
 
