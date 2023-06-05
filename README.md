@@ -61,13 +61,13 @@ echo "deb [signed-by=/usr/share/keyrings/syncthing-archive-keyring.gpg] https://
 ```
 
 The candidate channel is updated with release candidate builds, usually every second Tuesday of the month. These predate the corresponding stable builds by about three weeks.
-*Add the "candidate" channel to your APT sources:
+Add the "candidate" channel to your APT sources:
 ```
 echo "deb [signed-by=/usr/share/keyrings/syncthing-archive-keyring.gpg] https://apt.syncthing.net/ syncthing candidate" | sudo tee /etc/apt/sources.list.d/syncthing.list
 ```
 
 And finally.
-*Update and install syncthing:
+Update and install syncthing:
 ```
 sudo apt-get update
 ```
