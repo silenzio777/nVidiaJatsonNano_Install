@@ -1,5 +1,12 @@
 
+This Getting Started will guide you through setting up your Jetson Nano and configuring it for AI image processing using the Pi Camera Module V2 with Python
+https://www.okdo.com/getting-started/get-started-with-jetson-nano-4gb-and-csi-camera/
+
+
+
 ArduCam - https://docs.arducam.com/Nvidia-Jetson-Camera/Jetvariety-Camera/Quick-Start-Guide/
+
+
 
 How to Install OpenCV 4.5 on NVIDIA Jetson Nano
 https://automaticaddison.com/how-to-install-opencv-4-5-on-nvidia-jetson-nano/
