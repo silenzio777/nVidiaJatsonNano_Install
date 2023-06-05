@@ -1,4 +1,10 @@
 
+ArduCam - https://docs.arducam.com/Nvidia-Jetson-Camera/Jetvariety-Camera/Quick-Start-Guide/
+
+
+__________
+<br>
+
 ## Enable screen sharing on jetson
 ```
 gsettings set org.gnome.Vino require-encryption false
