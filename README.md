@@ -1,4 +1,9 @@
 
+A simple to use camera interface for the Jetson Nano for working with USB, CSI, IP and also RTSP cameras or streaming video in Python 3.
+https://github.com/thehapyone/NanoCamera
+
+
+
 This Getting Started will guide you through setting up your Jetson Nano and configuring it for AI image processing using the Pi Camera Module V2 with Python
 https://www.okdo.com/getting-started/get-started-with-jetson-nano-4gb-and-csi-camera/
 
