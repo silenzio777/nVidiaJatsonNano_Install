@@ -16,6 +16,8 @@ https://www.okdo.com/getting-started/get-started-with-jetson-nano-4gb-and-csi-ca
 
 ArduCam - https://docs.arducam.com/Nvidia-Jetson-Camera/Jetvariety-Camera/Quick-Start-Guide/
 
+How to install OpenCV 4.5.2 with CUDA 11.2 and CUDNN 8.2 in Ubuntu 20.04
+https://gist.github.com/raulqf/f42c718a658cddc16f9df07ecc627be7
 
 
 How to Install OpenCV 4.5 on NVIDIA Jetson Nano
