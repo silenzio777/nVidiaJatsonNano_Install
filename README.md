@@ -1,6 +1,8 @@
 
 Как за 60$ создать систему распознавания лиц с помощью Python и Nvidia Jetson Nano 2GB
 https://habr.com/ru/companies/skillfactory/articles/544430/
+origin- 
+https://medium.com/@ageitgey/build-a-face-recognition-system-for-60-with-the-new-nvidia-jetson-nano-2gb-and-python-46edbddd7264
 
 
 
