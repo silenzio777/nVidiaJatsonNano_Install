@@ -4,6 +4,11 @@ https://youtu.be/fwoonl5JKgo
 https://www.youtube.com/watch?v=PkRE10YPt3I
 
 
+The World's Leading Cross Platform AI Engine for Edge Devices, with over 10 million installs on Docker Hub.
+https://github.com/johnolafenwa/DeepStack
+
+
+
 
 60$ face recognision Python and Nvidia Jetson Nano 2GB
 https://habr.com/ru/companies/skillfactory/articles/544430/
