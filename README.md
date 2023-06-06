@@ -1,5 +1,12 @@
 
 
+Real-time Face detection on Jetson Nano using OpenCV
+https://maker.pro/nvidia-jetson/tutorial/real-time-face-detection-on-jetson-nano-using-opencv
+
+
+
+Using Jetson Nano and a Raspberry Pi Camera for Video Streaming
+https://maker.pro/nvidia-jetson/tutorial/streaming-real-time-video-from-rpi-camera-to-browser-on-jetson-nano-with-flask
 
 
 A simple to use camera interface for the Jetson Nano for working with USB, CSI, IP and also RTSP cameras or streaming video in Python 3.
