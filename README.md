@@ -1,4 +1,8 @@
 
+Как за 60$ создать систему распознавания лиц с помощью Python и Nvidia Jetson Nano 2GB
+https://habr.com/ru/companies/skillfactory/articles/544430/
+
+
 
 Real-time Face detection on Jetson Nano using OpenCV
 https://maker.pro/nvidia-jetson/tutorial/real-time-face-detection-on-jetson-nano-using-opencv
