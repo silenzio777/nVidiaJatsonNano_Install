@@ -1,0 +1,9 @@
+## https://github.com/silenzio777/rplidar_sdk
+
+
+typedef struct sl_lidar_response_measurement_node_hq_t {
+    _u16   angle_z_q14; 
+    _u32   dist_mm_q2; 
+    _u8    quality;  
+    _u8    flag;
+} __attribute__((packed)) sl_lidar_response_measurement_node_hq_t;
