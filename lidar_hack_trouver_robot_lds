@@ -7,3 +7,16 @@ typedef struct sl_lidar_response_measurement_node_hq_t {
     _u8    quality;  
     _u8    flag;
 } __attribute__((packed)) sl_lidar_response_measurement_node_hq_t;
+
+
+## The definiton of each fields are:
+
+Field	Data Type	Comments
+angle_z_q14	u16_z_q14	It is a fix-point angle desciption in z presentation
+dist_mm_q2	u32_q2	Distance in millimeter of fixed point values
+quality	u8	Measurement quality (0 ~ 255)
+flag	u8	Flags, current only one bit used: SL_LIDAR_RESP_MEASUREMENT_SYNCBIT
+For example:
+
+float angle_in_degrees = node.angle_z_q14 * 90.f / (1 << 14);
+float distance_in_meters = node.dist_mm_q2 / 1000.f / (1 << 2);
