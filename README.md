@@ -2,6 +2,8 @@
 Porting OpenAI Whisper speech recognition to edge devices with hardware ML accelerators, enabling always-on live voice transcription. Current work includes Jetson Nano and Coral Edge TPU.
 https://github.com/silenzio777/whisper-edge
 
+https://www.youtube.com/watch?v=WHiAPA1pib4
+
 https://github.com/maxbbraun/whisper-edge/issues/3
 
 https://github.com/openai/whisper/discussions/1124
