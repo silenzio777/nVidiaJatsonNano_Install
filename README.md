@@ -1,6 +1,6 @@
-========
+=
 You can plug the UART into another TTL type of device by just wiring the two directly together, but note the 3.3V signal. Many serial devices, such as some Arduinos, use 5V. The Jetson Nano is not tolerant of 5V, and if you connect directly bad things can happen. If you are using a 5V device with the Jetson Nano, you will need to do some level shifting to get the levels to match.
-========
+=
 https://forums.developer.nvidia.com/t/connecting-jetson-nano-to-arduino-uno/172775/9
 
 
