@@ -1,3 +1,8 @@
+I would suggest you use the jetson nano 40 pin header to communicate with the Uno tx/rx pins. Have you checked the pin assignments of the 40 pin header with:
+
+$ sudo /opt/nvidia/jetson-io/jetson-io.py
+
+_____________
 
 Porting OpenAI Whisper speech recognition to edge devices with hardware ML accelerators, enabling always-on live voice transcription. Current work includes Jetson Nano and Coral Edge TPU.
 https://github.com/silenzio777/whisper-edge
