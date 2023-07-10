@@ -1,11 +1,11 @@
-###OMNI weels ROS platform:
+### OMNI weels ROS platform:
 
 
-##
+## Mobile Robot MPO-500
 https://github.com/neobotix/neo_kinematics_mecanum2
 https://neobotix-docs.de/ros/ros2/installation.html
 
-##neo_kinematics_mecanum2<br>
+## neo_kinematics_mecanum2<br>
 https://github.com/pal-robotics/omni_base_robot/tree/melodic-devel
 __________
 <br>
