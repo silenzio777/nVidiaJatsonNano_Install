@@ -1,3 +1,20 @@
+###OMNI weels ROS platform:
+
+
+##
+https://github.com/neobotix/neo_kinematics_mecanum2
+https://neobotix-docs.de/ros/ros2/installation.html
+
+##neo_kinematics_mecanum2<br>
+https://github.com/pal-robotics/omni_base_robot/tree/melodic-devel
+__________
+<br>
+
+
+
+
+-----------
+
 https://forums.developer.nvidia.com/t/unreliable-serial-communcation-via-the-uart-tx-rx-gpio-pins/158249/21
 !!!
 This helped me to get correct data. You need to connect pull down ~10 kOhm resistor from RX and TX (GPIO 8, 10 pins) to the jetson nano’s ground.
