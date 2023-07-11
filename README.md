@@ -2,7 +2,7 @@
 
 
 ## Mobile Robot MPO-500
-https://github.com/neobotix/neo_kinematics_mecanum2
+https://github.com/neobotix/neo_kinematics_mecanum2<br>
 https://neobotix-docs.de/ros/ros2/installation.html
 
 ## neo_kinematics_mecanum2<br>
@@ -10,8 +10,26 @@ https://github.com/pal-robotics/omni_base_robot/tree/melodic-devel
 __________
 <br>
 
+### Install Ubuntu on MAC M2
+https://www.youtube.com/watch?v=O19mv1pe76M&t=0s
 
+Ubuntu 22.04 ARM64 -
+https://ubuntu.com/download/server/arm
 
+UTM - https://mac.getutm.app/
+
+Enable Directory Sharing -  https://docs.getutm.app/guest-support...
+__________________________
+ **  Commands **
+______________________________
+
+sudo apt update
+sudo apt upgrade -y
+sudo apt install ubuntu-desktop
+
+sudo apt install spice-vdagent spice-webdavd
+__________
+<br>
 
 -----------
 
