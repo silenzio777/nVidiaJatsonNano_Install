@@ -50,9 +50,7 @@ __________________________
  **  Commands **
 ______________________________
 ```
-sudo apt update
-
-sudo apt upgrade -y
+sudo apt update && sudo apt upgrade -y
 
 sudo apt install ubuntu-desktop
 
