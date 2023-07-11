@@ -19,6 +19,27 @@ https://ubuntu.com/download/server/arm
 UTM - https://mac.getutm.app/
 
 Enable Directory Sharing -  https://docs.getutm.app/guest-support...
+
+https://docs.getutm.app/guest-support/linux/
+
+```
+sudo mkdir [mount point]
+
+sudo mount -t 9p -o trans=virtio share [mount point] -oversion=9p2000.L
+
+
+>add this line to 
+share	[mount point]	9p	trans=virtio,version=9p2000.L,rw,_netdev,nofail	0	0
+sudo nano /etc/fstabc
+>save and exit
+
+ sudo chown -R $USER [mount point]
+
+
+
+```
+
+
 __________________________
  **  Commands **
 ______________________________
