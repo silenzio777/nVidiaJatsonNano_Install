@@ -31,6 +31,8 @@ sudo apt update && sudo apt upgrade -y
 
 sudo apt install ubuntu-desktop
 
+reboot
+
 sudo apt install spice-vdagent spice-webdavd
 ```
 
