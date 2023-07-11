@@ -28,7 +28,7 @@ sudo mkdir [mount point]
 sudo mount -t 9p -o trans=virtio share [mount point] -oversion=9p2000.L
 ```
 
->add this line to /etc/fstabc
+>add this line to /etc/fstab
 ```
 share	[mount point]	9p	trans=virtio,version=9p2000.L,rw,_netdev,nofail	0	0
 
