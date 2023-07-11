@@ -22,6 +22,18 @@ Enable Directory Sharing -  https://docs.getutm.app/guest-support...
 
 https://docs.getutm.app/guest-support/linux/
 
+
+__________________________
+ **  Commands **
+______________________________
+```
+sudo apt update && sudo apt upgrade -y
+
+sudo apt install ubuntu-desktop
+
+sudo apt install spice-vdagent spice-webdavd
+```
+
 ```
 sudo mkdir [mount point]
 
@@ -46,16 +58,7 @@ reboot
 
 
 
-__________________________
- **  Commands **
-______________________________
-```
-sudo apt update && sudo apt upgrade -y
 
-sudo apt install ubuntu-desktop
-
-sudo apt install spice-vdagent spice-webdavd
-```
 __________
 <br>
 
