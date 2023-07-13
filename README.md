@@ -16,7 +16,7 @@ ____
 
 https://github.com/elephantrobotics
 
-## OMNY WHEELS CAR:
+## OMNI WHEELS CAR:
 https://github.com/elephantrobotics/myagv_ros
 
 https://github.com/elephantrobotics/mycobot_ros
