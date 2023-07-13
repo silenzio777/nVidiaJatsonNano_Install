@@ -9,7 +9,11 @@ ___
 
 ```
 cd ~/[PROJECT]/src
+
 git clone https://github.com/ros-planning/navigation_msgs.git
+
+sudo apt-get install ros-noetic-slam-gmapping
+
 ```
 ____
 ## ROS projects%
@@ -51,6 +55,11 @@ source ~/.bashrc
 sudo apt install ros-galactic-joint-state-publisher-gui
 
 ros2
+
+...
+
+roslaunch myagv_navigation myagv_slam_laser.launch
+
 ```
 
 ________
