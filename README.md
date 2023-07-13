@@ -19,6 +19,12 @@ https://docs.ros.org/en/iron/Installation/Ubuntu-Install-Debians.html
 sudo apt install ros-galactic-desktop
 
 echo "source /opt/ros/galactic/setup.bash" >> ~/.bashrc
+
+source ~/.bashrc
+
+sudo apt install ros-galactic-joint-state-publisher-gui
+
+ros2
 ```
 
 ________
