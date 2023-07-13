@@ -15,8 +15,11 @@ https://docs.ros.org/en/iron/Installation/Ubuntu-Install-Debians.html
 
 
 # Ubuntu 20.04 galactic version
+```
 sudo apt install ros-galactic-desktop
 
+echo "source /opt/ros/galactic/setup.bash" >> ~/.bashrc
+```
 
 ________
 
