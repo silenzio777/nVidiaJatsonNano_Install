@@ -1,3 +1,13 @@
+
+## add package to ROS:
+
+```
+cd ~/[PROJECT]/src
+git clone https://github.com/ros-planning/navigation_msgs.git
+```
+____
+
+
 ### ROS2 install:
 ## ROS2 versions:
 
