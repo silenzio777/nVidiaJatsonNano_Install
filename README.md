@@ -4,7 +4,7 @@
 https://docs.elephantrobotics.com/docs/gitbook-en/12-ApplicationBaseROS/12.2-ROS2/12.2.1-ROS2%E7%9A%84%E5%AE%89%E8%A3%85.html
 
 ROS2 version    Ubuntu version<br>
-Foxy	        Ubuntu 20.04(Focal Fossa)<br>
+Foxy	        /tUbuntu 20.04(Focal Fossa)<br>
 **Galactic	    Ubuntu 20.04(Focal Fossa)**<br>
 Humble	        Ubuntu 22.04(Jammy Jellyfish)<br>
 
