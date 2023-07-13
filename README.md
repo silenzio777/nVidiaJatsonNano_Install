@@ -14,6 +14,8 @@ git clone https://github.com/ros-planning/navigation_msgs.git
 
 sudo apt-get install ros-noetic-slam-gmapping
 
+sudo apt-get install ros-noetic-move-base
+
 ```
 ____
 ## ROS projects%
