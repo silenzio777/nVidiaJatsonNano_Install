@@ -1,3 +1,9 @@
+### ROS2 install:
+
+https://docs.ros.org/en/iron/Installation/Ubuntu-Install-Debians.html
+
+________
+
 ### OMNI weels ROS platform:
 
 
