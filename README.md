@@ -1,3 +1,9 @@
+## ROS Lidars:
+
+https://github.com/YDLIDAR/YDLidar-SDK/tree/master
+https://github.com/YDLIDAR/ydlidar_ros_driver/tree/master
+
+___
 
 ## add package to ROS:
 
