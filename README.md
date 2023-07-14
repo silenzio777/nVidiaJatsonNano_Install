@@ -18,7 +18,13 @@ sudo apt-get install ros-noetic-move-base
 
 ```
 ____
-## ROS projects%
+
+## ROS2 projects:
+
+https://github.com/silenzio777/jetbot-ros2
+
+
+## ROS projects:
 
 https://github.com/elephantrobotics
 
@@ -27,6 +33,8 @@ https://github.com/elephantrobotics/myagv_ros
 
 https://github.com/elephantrobotics/mycobot_ros
 
+
+https://github.com/silenzio777/jetbot-ros2
 
 ___
 
