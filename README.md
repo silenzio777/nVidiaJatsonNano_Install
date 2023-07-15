@@ -55,7 +55,14 @@ https://docs.ros.org/en/iron/Installation/Ubuntu-Install-Debians.html
 
 
 # Ubuntu 20.04 galactic version
+https://docs.ros.org/en/galactic/Installation/Ubuntu-Install-Debians.html#install-ros-2-packages
 ```
+echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/ros-archive-keyring.gpg] http://packages.ros.org/ros2/ubuntu $(source /etc/os-release && echo $UBUNTU_CODENAME) main" | sudo tee /etc/apt/sources.list.d/ros2.list > /dev/null
+
+sudo apt install curl gnupg2 -y
+
+sudo apt-get update
+
 sudo apt install ros-galactic-desktop
 
 echo "source /opt/ros/galactic/setup.bash" >> ~/.bashrc
