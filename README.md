@@ -96,6 +96,10 @@ sudo apt install ros-galactic-joint-state-publisher-gui
 
 ros2
 
+rqt_graph
+
+rqt
+
 ...
 
 roslaunch myagv_navigation myagv_slam_laser.launch
