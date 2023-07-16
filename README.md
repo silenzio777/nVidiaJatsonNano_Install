@@ -424,6 +424,9 @@ sudo add-apt-repository "deb https://download.sublimetext.com/ apt/stable/"
 ```
 sudo apt install sublime-text
 ```
+
+https://www.sublimetext.com/docs/key_bindings.html
+
 __________
 <br>
 
