@@ -8,6 +8,8 @@ https://drive.google.com/drive/folders/1UmBvxMcuOPSqgsrDcEwdC6H5NQfgefE5
 
 https://github.com/silenzio777/jetbot-ros2
 
+## Moorebot Scout, an AI-powered security mobile robot built upon Linux and ROS. Code name "Roller Eye”
+https://github.com/Pilot-Labs-Dev/Scout-open-source
 
 ## Mobile Robot MPO-500
 https://github.com/neobotix/neo_kinematics_mecanum2<br>
