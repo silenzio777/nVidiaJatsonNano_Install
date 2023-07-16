@@ -10,6 +10,7 @@ source /opt/ros/galactic/setup.bash
 source /opt/ros/noetic/setup.bash
 ```
 
+
 ### Run a tools
 ```
 ros2
@@ -49,6 +50,11 @@ ros2 launch turtlesim multisim.launch.py
 ```
 
 
+### In the root directory of the project, you can now compile and see what is available to run
+
+```
+ros2 pkg executables
+```
 _____________________________________________________________
 
 <br>
