@@ -1,3 +1,26 @@
+## ROS2 projects:
+
+### OMNI weels ROS platform:
+
+## hiwonder JetMax Pro
+https://drive.google.com/drive/folders/1UmBvxMcuOPSqgsrDcEwdC6H5NQfgefE5
+
+
+https://github.com/silenzio777/jetbot-ros2
+
+
+## Mobile Robot MPO-500
+https://github.com/neobotix/neo_kinematics_mecanum2<br>
+https://neobotix-docs.de/ros/ros2/installation.html
+
+## neo_kinematics_mecanum2<br>
+https://github.com/pal-robotics/omni_base_robot/tree/melodic-devel
+__________
+<br>
+
+
+___________
+
 ## ROS Lidars:
 
 https://github.com/YDLIDAR/YDLidar-SDK/tree/master
@@ -19,10 +42,6 @@ sudo apt-get install ros-noetic-move-base
 ```
 ____
 
-## ROS2 projects:
-
-https://github.com/silenzio777/jetbot-ros2
-
 
 ## ROS projects:
 
@@ -36,7 +55,7 @@ https://github.com/elephantrobotics/mycobot_ros
 
 https://github.com/silenzio777/jetbot-ros2
 
-___
+_____________________________________________________________
 
 ### ROS2 install:
 ## ROS2 versions:
@@ -106,17 +125,8 @@ roslaunch myagv_navigation myagv_slam_laser.launch
 
 ```
 
-________
+_____________________________________________________________
 
-### OMNI weels ROS platform:
-
-
-## Mobile Robot MPO-500
-https://github.com/neobotix/neo_kinematics_mecanum2<br>
-https://neobotix-docs.de/ros/ros2/installation.html
-
-## neo_kinematics_mecanum2<br>
-https://github.com/pal-robotics/omni_base_robot/tree/melodic-devel
 __________
 <br>
 
