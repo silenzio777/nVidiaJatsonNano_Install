@@ -3,6 +3,13 @@
 https://software-dl.ti.com/jacinto7/esd/robotics-sdk/08_02_00/docs/source/ros2/drivers/gscam2/README_TI.html
 
 
+https://index.ros.org/p/gscam/
+
+examples:
+https://github.com/ros-drivers/gscam/tree/ros2/examples
+
+_______________
+
 ## ROS2 projects:
 
 
