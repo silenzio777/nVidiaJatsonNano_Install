@@ -1,3 +1,5 @@
+sudo apt-get install ros-galactic-gscam
+
 
 ## ROS2 camera:
 
