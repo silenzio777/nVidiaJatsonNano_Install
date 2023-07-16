@@ -20,12 +20,12 @@ rqt
 
 ```
 
-# Install a package
+### Install a package
 ```
 sudo apt install ros-<distro>-<package>
 ```
 
-# Compile ROS2 project
+### Compile ROS2 project
 ```
 cd ~/ros2_ws
 
@@ -39,7 +39,7 @@ source install/setup.bash
 ros2 run service_pkg server_demo
 ```
 
-#Run ROS2 project
+### Run ROS2 project
 ```
 roslaunch myagv_navigation myagv_slam_laser.launch
 
