@@ -1,3 +1,49 @@
+_____________________________________________________________
+
+```
+ros2
+
+rviz2
+
+rqt_graph
+
+rqt
+
+```
+
+#Install a package
+```
+sudo apt install ros-<distro>-<package>
+```
+
+#Compile ROS2 project
+```
+cd ~/ros2_ws
+
+colcon build
+
+>After the compilation is completed, refresh the environment variables of the workspace.
+
+source install/setup.bash
+
+>Start the server
+ros2 run service_pkg server_demo
+```
+
+#Run ROS2 project
+```
+roslaunch myagv_navigation myagv_slam_laser.launch
+
+ros2 launch turtlesim multisim.launch.py
+```
+
+
+_____________________________________________________________
+
+<br>
+
+______________
+
 sudo apt-get install ros-galactic-gscam
 https://github.com/ros-drivers/gscam/tree/ros2/examples
 
@@ -145,29 +191,6 @@ rqt
 
 ```
 
-#Install a package
-```
-sudo apt install ros-<distro>-<package>
-```
-
-#Compile ROS2 project
-```
-cd ~/ros2_ws
-
-colcon build
-
->After the compilation is completed, refresh the environment variables of the workspace.
-
-source install/setup.bash
-
->Start the server
-ros2 run service_pkg server_demo
-```
-
-#Run ROS2 project
-```
-roslaunch myagv_navigation myagv_slam_laser.launch
-```
 
 
 _____________________________________________________________
