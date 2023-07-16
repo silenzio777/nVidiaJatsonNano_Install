@@ -1,6 +1,6 @@
 _____________________________________________________________
 
-# Switch between POS and ROS2
+### Switch between POS and ROS2
 
 ```
 source /opt/ros/noetic/setup.bash
@@ -8,7 +8,7 @@ source /opt/ros/noetic/setup.bash
 source /opt/ros/galactic/setup.bash
 ```
 
-# Run a tools
+### Run a tools
 ```
 ros2
 
@@ -20,12 +20,12 @@ rqt
 
 ```
 
-#Install a package
+# Install a package
 ```
 sudo apt install ros-<distro>-<package>
 ```
 
-#Compile ROS2 project
+# Compile ROS2 project
 ```
 cd ~/ros2_ws
 
