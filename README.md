@@ -426,6 +426,22 @@ sudo apt install sublime-text
 ```
 
 https://www.sublimetext.com/docs/key_bindings.html
+```
+[
+	{
+        "keys": ["super+shift+c"],
+        "command": "copy"
+    },
+    {
+        "keys": ["super+shift+v"],
+        "command": "paste"
+    },
+    {
+        "keys": ["super+shift+z"],
+        "command": "undo"
+    }
+]
+```
 
 __________
 <br>
