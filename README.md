@@ -147,7 +147,7 @@ colcon build
 
 >After the compilation is completed, refresh the environment variables of the workspace.
 
-source /install/setup.bash
+source install/setup.bash
 
 >Start the server
 ros2 run service_pkg server_demo
