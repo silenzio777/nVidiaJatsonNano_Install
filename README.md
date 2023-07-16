@@ -145,6 +145,10 @@ rqt
 
 ```
 
+#Install a package
+```
+sudo apt install ros-<distro>-<package>
+```
 
 #Compile ROS2 project
 ```
