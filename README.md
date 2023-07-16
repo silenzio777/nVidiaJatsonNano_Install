@@ -136,9 +136,13 @@ sudo apt install ros-galactic-joint-state-publisher-gui
 
 ros2
 
+rviz2
+
 rqt_graph
 
 rqt
+
+
 ```
 
 
