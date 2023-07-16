@@ -1,3 +1,4 @@
+https://answers.ros.org/question/91676/how-to-install-gscam/
 _____________________________________________________________
 
 ### Switch between POS and ROS2
