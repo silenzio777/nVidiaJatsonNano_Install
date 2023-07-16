@@ -24,6 +24,8 @@ rqt
 
 ros2 run rqt_image_view rqt_image_view
 
+ros2 run rqt_py_console rqt_py_console
+
 ```
 
 ### Install a package
