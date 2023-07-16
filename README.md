@@ -1,4 +1,5 @@
 sudo apt-get install ros-galactic-gscam
+https://github.com/ros-drivers/gscam/tree/ros2/examples
 
 
 ## ROS2 camera:
