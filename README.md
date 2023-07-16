@@ -76,8 +76,8 @@ https://github.com/silenzio777/jetbot-ros2
 _____________________________________________________________
 
 ### ROS2 install:
-## ROS2 versions:
 
+# ROS2 versions:
 https://docs.elephantrobotics.com/docs/gitbook-en/12-ApplicationBaseROS/12.2-ROS2/12.2.1-ROS2%E7%9A%84%E5%AE%89%E8%A3%85.html
 
 ROS2 version        Ubuntu version<br>
@@ -136,12 +136,28 @@ ros2
 rqt_graph
 
 rqt
-
-...
-
-roslaunch myagv_navigation myagv_slam_laser.launch
-
 ```
+
+
+#Compile ROS2 project
+```
+cd ~/ros2_ws
+
+colcon build
+
+>After the compilation is completed, refresh the environment variables of the workspace.
+
+source ~/ros2_ws/install/setup.bash
+
+>Start the server
+ros2 run service_pkg server_demo
+```
+
+#Run ROS2 project
+```
+roslaunch myagv_navigation myagv_slam_laser.launch
+```
+
 
 _____________________________________________________________
 
