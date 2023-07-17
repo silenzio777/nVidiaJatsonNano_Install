@@ -199,6 +199,7 @@ or this -->> sudo apt install ros-galactic-ros-base
 
 sudo apt install ros-dev-tools
 
+reboot
 
 
 echo "source /opt/ros/galactic/setup.bash" >> ~/.bashrc
