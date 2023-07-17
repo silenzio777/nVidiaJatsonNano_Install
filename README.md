@@ -195,7 +195,7 @@ sudo apt-get update
 
 sudo apt install ros-galactic-desktop
 
-sudo apt install ros-galactic-ros-base
+or this -->> sudo apt install ros-galactic-ros-base
 
 sudo apt install ros-dev-tools
 
