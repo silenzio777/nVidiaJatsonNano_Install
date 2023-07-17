@@ -1,3 +1,9 @@
+
+
+v4l2-ctl --device /dev/video0 --list-formats-ext
+
+__________
+
 https://answers.ros.org/question/91676/how-to-install-gscam/
 _____________________________________________________________
 
