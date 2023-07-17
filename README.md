@@ -165,7 +165,7 @@ https://docs.ros.org/en/iron/Installation/Ubuntu-Install-Debians.html
 
 # Ubuntu 20.04 galactic version
 <details>
-  <summary>Install</summary>
+  <summary>##Install details</summary>
 
 https://docs.ros.org/en/galactic/Installation/Ubuntu-Install-Debians.html#install-ros-2-packages
 
