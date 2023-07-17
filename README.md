@@ -163,11 +163,12 @@ http://docs.ros.org/en/foxy/Releases.html
 
 https://docs.ros.org/en/iron/Installation/Ubuntu-Install-Debians.html
 
-<details>
-  <summary>Spoiler warning</summary>
-
 # Ubuntu 20.04 galactic version
+<details>
+  <summary>Install</summary>
+
 https://docs.ros.org/en/galactic/Installation/Ubuntu-Install-Debians.html#install-ros-2-packages
+
 ```
 
 locale  # check for UTF-8
