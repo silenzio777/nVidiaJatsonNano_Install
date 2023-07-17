@@ -219,7 +219,12 @@ rqt
 
 sudo apt remove ros-*
 
+$ cd /etc/apt/sources.list.d/
+$ sudo rm ros2.list
+
 sudo apt autoremove
+sudo reboot
+
 ```
 _____________________________________________________________
 
