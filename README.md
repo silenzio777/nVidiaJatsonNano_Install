@@ -165,7 +165,7 @@ https://docs.ros.org/en/iron/Installation/Ubuntu-Install-Debians.html
 
 # Ubuntu 20.04 galactic version
 <details>
-  <summary>## Install details</summary>
+  <summary>INSTALL & UNINSTALL</summary>
 
 https://docs.ros.org/en/galactic/Installation/Ubuntu-Install-Debians.html#install-ros-2-packages
 
@@ -222,8 +222,8 @@ rqt
 
 sudo apt remove ros-*
 
-$ cd /etc/apt/sources.list.d/
-$ sudo rm ros2.list
+cd /etc/apt/sources.list.d/
+sudo rm ros2.list
 
 sudo apt autoremove
 sudo reboot
