@@ -212,11 +212,15 @@ rqt_graph
 
 rqt
 
-
 ```
 
+### ROS2 Uninstall:
+```
 
+sudo apt remove ros-*
 
+sudo apt autoremove
+```
 _____________________________________________________________
 
 __________
