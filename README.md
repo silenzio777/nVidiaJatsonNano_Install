@@ -1,7 +1,15 @@
 
-
+```
 v4l2-ctl --device /dev/video0 --list-formats-ext
 
+v4l2-ctl --device /dev/video0 --stream-mmap --stream-count=120 --set-fmt-video=width=1280,height=720,pixelformat=RG10
+```
+Then, after executing that command provide the output of the following two commands, than will help to identify what the capture subsystem is configuring
+```
+v4l2-ctl -d /dev/video0 --all
+
+media-ctl -d /dev/media0 -p
+```
 __________
 
 https://answers.ros.org/question/91676/how-to-install-gscam/
