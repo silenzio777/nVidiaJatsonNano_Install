@@ -1,4 +1,23 @@
 
+## Use ROS_DOMAIN_ID to run multiple (separate) ROS2 applications on the same network
+https://roboticsbackend.com/ros2-multiple-machines-including-raspberry-pi/
+
+### Machine 1 – session (terminal) A:
+```
+export ROS_DOMAIN_ID=5
+source /opt/ros/your_ros2_distribution/setup.bash
+ros2 run demo_nodes_cpp talker
+```
+
+### Machine 2 – session (terminal) B:
+```
+export ROS_DOMAIN_ID=5 
+source /opt/ros/your_ros2_distribution/setup.bash 
+ros2 run demo_nodes_cpp listener
+```
+
+
+_____________
 ### ROS2 doctor full report
 
 ```
