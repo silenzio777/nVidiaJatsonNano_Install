@@ -1,4 +1,11 @@
 
+### ROS2 doctor full report
+
+```
+ros2 doctor --report
+```
+
+
 ```
 v4l2-ctl --device /dev/video0 --list-formats-ext
 v4l2-ctl --device /dev/video0 --set-fmt-video=width=1280,height=720,pixelformat=RG10 --verbose
