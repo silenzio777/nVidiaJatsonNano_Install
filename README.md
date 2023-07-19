@@ -1,5 +1,6 @@
 
 # Connecting Jetson Nano to Arduino Uno
+https://forums.developer.nvidia.com/t/connecting-jetson-nano-to-arduino-uno/172775/9
 
 ## Python script:
 ```
