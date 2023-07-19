@@ -1,4 +1,6 @@
 
+https://www.hackster.io/ansh2919/serial-communication-between-python-and-arduino-e7cce0
+
 # Connecting Jetson Nano to Arduino Uno
 https://forums.developer.nvidia.com/t/connecting-jetson-nano-to-arduino-uno/172775/9
 
