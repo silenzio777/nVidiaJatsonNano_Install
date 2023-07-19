@@ -1,5 +1,6 @@
 
 ## Use ROS_DOMAIN_ID to run multiple (separate) ROS2 applications on the same network
+https://answers.ros.org/question/357639/running-ros2-across-multiple-machines/
 https://roboticsbackend.com/ros2-multiple-machines-including-raspberry-pi/
 
 ### Machine 1 – session (terminal) A:
