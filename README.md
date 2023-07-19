@@ -1,4 +1,69 @@
 
+# Connecting Jetson Nano to Arduino Uno
+
+## Python script:
+```
+import serial
+
+print("UART Demonstration Program")
+print("NVIDIA Jetson Nano Developer Kit")
+
+
+serial_port = serial.Serial(
+    port="/dev/ttyTHS1",
+    baudrate=115200,
+    bytesize=serial.EIGHTBITS,
+    parity=serial.PARITY_NONE,
+    stopbits=serial.STOPBITS_ONE,
+)
+# Wait a second to let the port initialize
+time.sleep(1)
+
+try:
+    # Send a message to the Arduino
+    serial_port.write("500 500".encode())
+    while True:
+        if serial_port.inWaiting() > 0:
+            data = serial_port.readline().decode()
+            print(data)
+            
+except KeyboardInterrupt:
+    print("Exiting Program")
+
+except Exception as exception_error:
+    print("Error occurred. Exiting Program")
+    print("Error: " + str(exception_error))
+
+finally:
+    serial_port.close()
+    pass
+```
+
+## Arduino script:
+```
+int data1;
+int data2;
+
+void setup() {
+  // put your setup code here, to run once:
+  Serial.begin(115200);
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+  if (Serial.available())
+  {
+    delay(10);
+    data1 = Serial.readStringUntil(' ').toInt();
+    data2 = Serial.readStringUntil(' ').toInt();
+    delay(10);
+    Serial.print("\nReceived Data:");
+    Serial.print(data1, data2);
+  }
+}
+```
+
+___________
 ## Use ROS_DOMAIN_ID to run multiple (separate) ROS2 applications on the same network
 https://answers.ros.org/question/357639/running-ros2-across-multiple-machines/
 https://roboticsbackend.com/ros2-multiple-machines-including-raspberry-pi/
