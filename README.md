@@ -6,6 +6,7 @@ cd alpaca.cpp
 make chat
 # download 7B model
 wget https://huggingface.co/Sosaka/Alpaca-native-4bit-ggml/resolve/main/ggml-alpaca-7b-q4.bin
+make chat
 ./chat
 
 models:
