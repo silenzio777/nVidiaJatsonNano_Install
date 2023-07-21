@@ -1,4 +1,22 @@
 
+## Alpaca.cpp
+```
+git clone https://github.com/antimatter15/alpaca.cpp
+cd alpaca.cpp
+make chat
+# download 7B model
+wget https://huggingface.co/Sosaka/Alpaca-native-4bit-ggml/resolve/main/ggml-alpaca-7b-q4.bin
+./chat
+
+models:
+https://huggingface.co/guy1267/alpaca7B/tree/main
+https://huggingface.co/guy1267/alpaca13B/tree/main
+
+
+
+```
+___________
+
 https://www.hackster.io/ansh2919/serial-communication-between-python-and-arduino-e7cce0
 
 # Connecting Jetson Nano to Arduino Uno
