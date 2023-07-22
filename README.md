@@ -39,6 +39,8 @@ rosrun rosserial_arduino make_libraries.py /home/anbu/sketchbook
 ```
 ___________
 
+https://github.com/JetsonHacksNano/UARTDemo/blob/master/uart_example.py
+
 https://forums.developer.nvidia.com/t/uart-communication-problem-between-nvidia-jetson-nano-and-arduino-mega/189505
 
 https://www.hackster.io/ansh2919/serial-communication-between-python-and-arduino-e7cce0
