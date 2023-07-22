@@ -1,3 +1,6 @@
+https://stackoverflow.com/questions/45505958/pyserial-reading-hex-value-from-mcu
+
+_______
 ## Arduino ROS serial comm:
 
 https://forums.developer.nvidia.com/t/jetson-nano-gpio-to-arduino-mega-serial1-uart-communication-using-ros-rosserial/165136
