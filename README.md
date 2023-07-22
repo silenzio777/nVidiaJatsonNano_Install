@@ -1,20 +1,34 @@
+https://www.youtube.com/watch?v=eSEo6YTtnnM&list=PL3E6XmqhhLBG_6JPp-tASnEgYH2VhuDAS&index=20
 
-## Alpaca.cpp
+In this lesson I will show you step by step systematic way of configuring ROS-Serial for Arduino in Jetson Nano.
+
+Step 1:
 ```
-git clone https://github.com/antimatter15/alpaca.cpp
-cd alpaca.cpp
-make chat
-# download 7B model
-wget https://huggingface.co/Sosaka/Alpaca-native-4bit-ggml/resolve/main/ggml-alpaca-7b-q4.bin
-make chat
-./chat
+sudo apt-get update
+sudo apt-get install arduino arduino-core
+```
+Step2: Installing ROS-Serial Binaries for Arduino in Jetson Nano
+After installing the Arduino IDE, the next step is installing the package that allows communication between ROS and the serial port of the Arduino board. The package is called rosserial_arduino and allows the node that will run on the Arduino to publish or subscribe to the nodes running on Jetson Nano.
 
-models:
-https://huggingface.co/guy1267/alpaca7B/tree/main
-https://huggingface.co/guy1267/alpaca13B/tree/main
+The rosserial package contains three other packages: rosserial_msgs, rosserial_client, and rosserial_python.
 
+Step 3:  We will use these commands to install necessary libraries.
+```
+sudo apt-get install ros-melodic-rosserial-arduino
+sudo apt-get install ros-melodic-rosserial
+```
 
+Step 4: After installing the Arduino IDE we need to provide Administrator privileges to Jetson Nano to access the Arduino Permission Checker.
+```
+sudo usermod -a -G dialout anbu
+arduino
+```
 
+Step 5:  Now we will create the ros_lib folder so that our Arduino environment will enable Arduino programs, typically C or C++ to interact with ROS
+```
+cd sketchbook/libraries
+rm -rf ros_lib
+rosrun rosserial_arduino make_libraries.py /home/anbu/sketchbook
 ```
 ___________
 
