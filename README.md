@@ -1,3 +1,40 @@
+Here is one alternative solution for the hex2byte competition:
+
+def int2byte(val, width=32):
+    """
+    Convert a signed integer value of specified width into a byte string.
+    """
+    if val < 0:
+        val = val + (1 << width)
+    return ''.join([chr((val >> 8*n) & 255) for n in reversed(range(width/8))])
+A hex2byte conversion is done by
+
+>>> int2byte(-0x10)
+'\xff\xff\xff\xf0'
+
+Friedrich Hagedorn 11 years, 10 months ago  # | flag
+And here is my version of byte2int:
+
+def byte2int(bstr, width=32):
+    """
+    Convert a byte string into a signed integer value of specified width.
+    """
+    val = sum(ord(b) << 8*n for (n, b) in enumerate(reversed(bstr)))
+    if val >= (1 << (width - 1)):
+        val = val - (1 << width)
+    return val
+A byte2hex conversion is done by
+
+>>> hex(byte2int('\xff\xff\xff\xf0'))
+'-0x10'
+And here is a verification of the two functions:
+
+>>> byte2int(int2byte(-16))
+-16
+But I dont know if these versions are faster than the original ones.
+
+
+++++++++
 https://stackoverflow.com/questions/45505958/pyserial-reading-hex-value-from-mcu
 
 _______
