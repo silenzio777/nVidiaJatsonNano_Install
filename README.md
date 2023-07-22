@@ -18,6 +18,8 @@ https://huggingface.co/guy1267/alpaca13B/tree/main
 ```
 ___________
 
+https://forums.developer.nvidia.com/t/uart-communication-problem-between-nvidia-jetson-nano-and-arduino-mega/189505
+
 https://www.hackster.io/ansh2919/serial-communication-between-python-and-arduino-e7cce0
 
 # Connecting Jetson Nano to Arduino Uno
