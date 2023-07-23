@@ -2,12 +2,12 @@
 ## Arduino ROS serial comm:
 
 ### Everything You Should Know About Python Serial Read
-+++
+__
 https://www.pythonpool.com/python-serial-read/
-+++
+__
 https://pythonforundergradengineers.com/python-arduino-potentiometer.html
 
-++++++++
+__
 https://stackoverflow.com/questions/45505958/pyserial-reading-hex-value-from-mcu
 
 
