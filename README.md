@@ -4,6 +4,11 @@
 ### ROS2 serial python:
 https://github.com/flynneva/ros2serial_python/blob/main/ros2serial_python/client.py
 
+### Python Struct
+https://docs.python.org/3/library/struct.html
+
+<br>
+<br>
 
 ### Everything You Should Know About Python Serial Read
 
