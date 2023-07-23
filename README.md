@@ -1,5 +1,5 @@
 
-# CAN interface:
+# CAN Bus in Linux:
 https://notes.rdu.im/system/linux/canbus/
 
 ++++++++
