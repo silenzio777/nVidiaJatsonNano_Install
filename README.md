@@ -136,12 +136,18 @@ export ROS_DOMAIN_ID=5
 source /opt/ros/your_ros2_distribution/setup.bash 
 ros2 run demo_nodes_cpp listener
 ```
+__________________________________________
 
 ### ROS2 PACKAGES:
 
 ## A bidirectional, ROS to GStreamer bridge
 https://github.com/BrettRD/ros-gst-bridge/tree/ros2
 
+## GSCam ROS2
+This is a ROS2 package originally developed by the Brown Robotics Lab for broadcasting any GStreamer video stream via image transport.
+
+GStreamer Library Support
+https://index.ros.org/r/gscam/github-ros-drivers-gscam/
 
 _____________
 ### ROS2 doctor full report
