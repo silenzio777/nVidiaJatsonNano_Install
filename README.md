@@ -7,6 +7,8 @@ https://www.pythonpool.com/python-serial-read/
 
 https://pythonforundergradengineers.com/python-arduino-potentiometer.html
 
+https://stackoverflow.com/questions/19908167/reading-serial-data-in-realtime-in-python
+
 ```
 data = ser.readline().decode().strip()
 ```
