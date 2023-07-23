@@ -7,6 +7,9 @@ https://www.pythonpool.com/python-serial-read/
 
 https://pythonforundergradengineers.com/python-arduino-potentiometer.html
 
+data = ser.readline().decode().strip()
+
+
 <br>
 https://stackoverflow.com/questions/45505958/pyserial-reading-hex-value-from-mcu
 
