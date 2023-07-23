@@ -11,6 +11,7 @@ _______
 ### Everything You Should Know About Python Serial Read
 https://www.pythonpool.com/python-serial-read/
 
+
 https://forums.developer.nvidia.com/t/jetson-nano-gpio-to-arduino-mega-serial1-uart-communication-using-ros-rosserial/165136
 
 http://wiki.ros.org/rosserial_arduino/Tutorials/NodeHandle%20and%20ArduinoHardware
