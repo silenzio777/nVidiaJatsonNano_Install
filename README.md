@@ -1,23 +1,7 @@
-	# Remove the leading 0x from the string by slicing it.
 
+# CAN interface:
+https://notes.rdu.im/system/linux/canbus/
 
-hex_string = "0x616263"[2:]
-
-
-bytes_object = bytes.fromhex(hex_string)
-
-Convert to bytes object
-
-ascii_string = bytes_object.decode("ASCII")
-
-Convert to ASCII representation
-
-print(ascii_string)
-
-
-OUTPUT
-
-abc
 ++++++++
 https://stackoverflow.com/questions/45505958/pyserial-reading-hex-value-from-mcu
 
