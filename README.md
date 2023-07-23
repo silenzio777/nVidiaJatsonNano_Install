@@ -9,7 +9,12 @@ _______
 ## Arduino ROS serial comm:
 
 ### Everything You Should Know About Python Serial Read
++++
 https://www.pythonpool.com/python-serial-read/
++++
+https://pythonforundergradengineers.com/python-arduino-potentiometer.html
+
+
 
 
 https://forums.developer.nvidia.com/t/jetson-nano-gpio-to-arduino-mega-serial1-uart-communication-using-ros-rosserial/165136
