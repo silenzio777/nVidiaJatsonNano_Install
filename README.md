@@ -145,9 +145,8 @@ https://github.com/BrettRD/ros-gst-bridge/tree/ros2
 
 ## GSCam ROS2
 This is a ROS2 package originally developed by the Brown Robotics Lab for broadcasting any GStreamer video stream via image transport.
-
-GStreamer Library Support
 https://index.ros.org/r/gscam/github-ros-drivers-gscam/
+https://github.com/ros-drivers/gscam/tree/ros2
 
 _____________
 ### ROS2 doctor full report
