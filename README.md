@@ -1,4 +1,4 @@
-# Remove the leading 0x from the string by slicing it.
+	# Remove the leading 0x from the string by slicing it.
 
 
 hex_string = "0x616263"[2:]
@@ -271,6 +271,7 @@ _______________
 
 ## ROS2 projects:
 
+https://github.com/silenzio777/jetbot-ros2
 
 ### OMNI weels ROS platform:
 https://github.com/westonrobot/scout_ros2
@@ -279,7 +280,7 @@ https://github.com/westonrobot/scout_ros2
 https://drive.google.com/drive/folders/1UmBvxMcuOPSqgsrDcEwdC6H5NQfgefE5
 
 
-https://github.com/silenzio777/jetbot-ros2
+
 
 ## Moorebot Scout, an AI-powered security mobile robot built upon Linux and ROS. Code name "Roller Eye”
 https://github.com/Pilot-Labs-Dev/Scout-open-source
