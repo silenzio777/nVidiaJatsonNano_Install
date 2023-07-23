@@ -137,6 +137,11 @@ source /opt/ros/your_ros2_distribution/setup.bash
 ros2 run demo_nodes_cpp listener
 ```
 
+### ROS2 PACKAGES:
+
+## A bidirectional, ROS to GStreamer bridge
+https://github.com/BrettRD/ros-gst-bridge/tree/ros2
+
 
 _____________
 ### ROS2 doctor full report
