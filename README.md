@@ -1,4 +1,21 @@
+```
+import serial   # import the module that allows us to communicate with our device over USB
 
+   
+ser = serial.Serial(port='/dev/ttyACM0', baudrate=9600)     # open a connection to Arduino Mega using its UART protocol 	      
+                               
+print("Waiting for input from the user...")   # print this message until we get an incoming byte
+
+input_byte = ser.read()           # read one single byte and store it in 'input_byte' variable
+
+if (ord(input_byte) >= 32):       # if ASCII value of received character is greater than 31, then print the corresponding uppercase letter
+
+print("You said: "+chr( ord( input_byte)) )
+```
+
+
+
+______
 ## Arduino ROS serial comm:
 
 ### ROS2 serial python:
