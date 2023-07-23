@@ -1,6 +1,10 @@
 
 ## Arduino ROS serial comm:
 
+### ROS2 serial python:
+https://github.com/flynneva/ros2serial_python/blob/main/ros2serial_python/client.py
+
+
 ### Everything You Should Know About Python Serial Read
 
 https://www.pythonpool.com/python-serial-read/
