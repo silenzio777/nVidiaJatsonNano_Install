@@ -5,13 +5,16 @@ Console printing over UART is a major bottleneck in kernel boot time. To reduce 
 ```
 console=ttyS0
 ```
+
 from the platform configuration file.
 To reduce the volume of printing over UART, follow these instructions:
 
 •For NVIDIA® Jetson Nano™ series: Edit the platform configuration file 
+
 ```
 p3448-0000.conf
 ```
+
 to remove the specification console=ttyS0.
 
 After you do this you may still review the console logs over the framebuffer console.
