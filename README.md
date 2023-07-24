@@ -1,3 +1,26 @@
+### Jetson Nano has three UARTs,
+
+UART0 on the M2 Key
+UART1 at 40-pin connector
+UART2 for debug. it only has TX and RX available.
+
+please access Jetson Nano Product Design Guide 6 and check [Table 11-6. Jetson Nano UART Pin Description].
+it’s signaling of UART1_TX/RX,
+so, please have a try to update Nano’s device tree, you could remove console-port to disable it.
+for example,
+```
+diff --git a/kernel-dts/tegra210-porg-p3448-common.dtsi b/kernel-dts/tegra210-porg-p3448-common.dtsi
+@@ -697,7 +697,6 @@
+
+        serial@70006000 { /* UART-A : UART1: Debug */
+                compatible = "nvidia,tegra210-uart", "nvidia,tegra114-hsuart", "nvidia,tegra20-uart";
+-               console-port;
+                sqa-automation-port;
+                /delete-property/ resets;
+                /delete-property/ reset-names;
+```
+___
+
 ### https://electrosome.com/uart-raspberry-pi-python/
 Using UART on Raspberry Pi – Python
 ```
