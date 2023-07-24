@@ -13,12 +13,12 @@ diff --git a/kernel-dts/tegra210-porg-p3448-common.dtsi b/kernel-dts/tegra210-po
 ```
 @@ -697,7 +697,6 @@
 
-        serial@70006000 { /* UART-A : UART1: Debug */
-                compatible = "nvidia,tegra210-uart", "nvidia,tegra114-hsuart", "nvidia,tegra20-uart";
--               console-port;
-                sqa-automation-port;
-                /delete-property/ resets;
-                /delete-property/ reset-names;
+serial@70006000 { /* UART-A : UART1: Debug */
+	compatible = "nvidia,tegra210-uart", "nvidia,tegra114-hsuart", "nvidia,tegra20-uart";
+- 	console-port;
+	sqa-automation-port;
+	/delete-property/ resets;
+	/delete-property/ reset-names;
 
 ___
 
