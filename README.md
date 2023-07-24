@@ -1,4 +1,7 @@
 
+```
+sudo systemctl status bluetooth.service
+```
 
 To enable any service use 
 ```
