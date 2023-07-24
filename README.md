@@ -1,3 +1,15 @@
+
+
+To enable any service use 
+```
+sudo systemctl enable cron.service
+```
+To disable any service use 
+```
+sudo systemctl disable cron.service
+```
+_______
+
 ### Jetson Nano has three UARTs,
 
 UART0 on the M2 Key
