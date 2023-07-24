@@ -1,11 +1,19 @@
+## Disable Console over UART
 
+Console printing over UART is a major bottleneck in kernel boot time. To reduce the bottleneck, you can reduce the volume of console printing over UART by removing console=ttyS0 from the platform configuration file.
+To reduce the volume of printing over UART, follow these instructions:
+
+•For NVIDIA® Jetson Nano™ series: Edit the platform configuration file p3448-0000.conf to remove the specification console=ttyS0.
+
+After you do this you may still review the console logs over the framebuffer console.
+
+_______
 there’s 
 ```
 /etc/systemd/system/nv-l4t-usb-device-mode.service
 ```
-to configure USB flashing port for device mode.
-please have a try to disable this service, thanks
-
+to configure USB flashing port for device mode. please have a try to disable this service, thanks
+______
 
 ### Enabling/Disabling services in Unix
 ```
