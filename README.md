@@ -10,6 +10,7 @@ so, please have a try to update Nano’s device tree, you could remove console-p
 for example,
 ```
 diff --git a/kernel-dts/tegra210-porg-p3448-common.dtsi b/kernel-dts/tegra210-porg-p3448-common.dtsi
+```
 @@ -697,7 +697,6 @@
 
         serial@70006000 { /* UART-A : UART1: Debug */
@@ -18,7 +19,7 @@ diff --git a/kernel-dts/tegra210-porg-p3448-common.dtsi b/kernel-dts/tegra210-po
                 sqa-automation-port;
                 /delete-property/ resets;
                 /delete-property/ reset-names;
-```
+
 ___
 
 ### https://electrosome.com/uart-raspberry-pi-python/
