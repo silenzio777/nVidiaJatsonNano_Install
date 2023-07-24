@@ -1,4 +1,13 @@
 
+there’s 
+```
+/etc/systemd/system/nv-l4t-usb-device-mode.service
+```
+to configure USB flashing port for device mode.
+please have a try to disable this service, thanks
+
+
+### Enabling/Disabling services in Unix
 ```
 sudo systemctl status bluetooth.service
 ```
