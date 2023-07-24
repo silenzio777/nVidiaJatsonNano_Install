@@ -1,3 +1,15 @@
+### https://electrosome.com/uart-raspberry-pi-python/
+Using UART on Raspberry Pi – Python
+```
+import serial
+ser = serial.Serial ("/dev/ttyAMA0")    #Open named port 
+ser.baudrate = 9600                     #Set baud rate to 9600
+data = ser.read(10)                     #Read ten characters from serial port to data
+ser.write(data)                         #Send back the received data
+ser.close()      
+```
+___
+
 ```
 import serial   # import the module that allows us to communicate with our device over USB
 
