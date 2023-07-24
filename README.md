@@ -1,8 +1,11 @@
 ### Jetson Nano has three UARTs,
 
 UART0 on the M2 Key
+
 UART1 at 40-pin connector
+
 UART2 for debug. it only has TX and RX available.
+
 
 please access Jetson Nano Product Design Guide 6 and check [Table 11-6. Jetson Nano UART Pin Description].
 it’s signaling of UART1_TX/RX,
