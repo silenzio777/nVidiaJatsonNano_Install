@@ -1,3 +1,6 @@
+https://docs.ros.org/en/galactic/Tutorials/Beginner-Client-Libraries/Writing-A-Simple-Py-Publisher-And-Subscriber.html
+________
+
 ## Disable Console over UART
 
 Console printing over UART is a major bottleneck in kernel boot time. To reduce the bottleneck, you can reduce the volume of console printing over UART by removing
