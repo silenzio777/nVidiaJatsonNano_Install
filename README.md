@@ -1,3 +1,17 @@
+## ROS2 robot model
+#robotics-meetup
+
+https://github.com/NSUHackspace/robotics-meetup/blob/main/meet_3_Robot_models/2.%20Imaginary_robots.md
+
+https://github.com/carlosjoserg/rrbot/blob/master/rrbot_description/robots/single_rrbot.urdf
+
+
+
+__
+## ROS2 convert Joystik PS3 command to Twist topic
+https://github.com/silenzio777/teleop_twist_joy
+_________
+
 https://docs.ros.org/en/galactic/Tutorials/Beginner-Client-Libraries/Writing-A-Simple-Py-Publisher-And-Subscriber.html
 ________
 
