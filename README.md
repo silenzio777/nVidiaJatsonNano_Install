@@ -1,5 +1,5 @@
 ## ROS2 robot model
-#robotics-meetup
+#robotics-meetup yt chah https://www.youtube.com/watch?v=LeN7ZD5O6S0&list=PL59YBNGcXNKrxuG615G5LO_JmzZi4t4kV&index=20
 
 https://github.com/NSUHackspace/robotics-meetup/blob/main/meet_3_Robot_models/2.%20Imaginary_robots.md
 
