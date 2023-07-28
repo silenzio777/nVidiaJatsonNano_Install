@@ -1,5 +1,6 @@
 
 ROS2 to Arduino common_interfaces bridge based on MsgPack
+ROS2 common_interfaces bridge based on MsgPack to send/receive ROS msgs
 ## MsgPackRosInterfaces
 
 https://github.com/hideakitai/MsgPackRosInterfaces
