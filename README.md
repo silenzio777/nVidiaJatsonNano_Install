@@ -1,4 +1,6 @@
 
+https://amperka.ru/blogs/projects/abot-robot-part-4
+__
 
 ## RTAB-Map
 #Real-Time Appearance-Based Mapping
